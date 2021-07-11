@@ -1,0 +1,27 @@
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+	    -ms-border-radius: $radius;
+	        border-radius: $radius;
+}
+
+@mixin font-color($color){
+	-webkit-border-radius: $color;
+	   -moz-border-radius: $color;
+	    -ms-border-radius: $color;
+	        border-radius: $color;
+}
+
+@mixin font-size($size){
+	-webkit-border-radius: $size;
+	   -moz-border-radius: $size;
+	    -ms-border-radius: $size;
+	        border-radius: $size;
+}
+
+@mixin font-weight($weight){
+	-webkit-border-radius: $weight;
+	   -moz-border-radius: $weight;
+	    -ms-border-radius: $weight;
+	        border-radius: $weight;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: $font-stack;
+    color: $base-text-color;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    background-color: $base_background_color;
+}
+
+.display{
+    -webkit-display: inline-block;
+       -moz-display: inline-block;
+        -ms-display: inline-block;
+           -display: inline-block;   
+}
+
+
+#button-1{
+    @extend .display;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#button-2{
+    @extend .display;
+    // float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    @include font-color(#123123);
+    @include font-size(15px);
+    @include font-weight(lighter);
+    text-align: justify;
+}

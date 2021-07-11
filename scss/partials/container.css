@@ -1,0 +1,61 @@
+/*
+Error: Undefined variable: "$font-stack".
+        on line 2 of F:\MAMP\htdocs\Project\scss\partials\container.scss
+
+1: body{
+2:     font-family: $font-stack;
+3:     color: $base-text-color;
+4:     font-size: $base-font-size;
+5:     line-height: $base-line-height;
+6: }
+7: 
+
+Backtrace:
+F:\MAMP\htdocs\Project\scss\partials\container.scss:2
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/KoalaSetup/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/KoalaSetup/bin/sass:22:in `load'
+F:/KoalaSetup/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$font-stack\".\A         on line 2 of F:\MAMP\htdocs\Project\scss\partials\container.scss\A \A 1: body{\A 2:     font-family: $font-stack;\A 3:     color: $base-text-color;\A 4:     font-size: $base-font-size;\A 5:     line-height: $base-line-height;\A 6: }\A 7: "; }
